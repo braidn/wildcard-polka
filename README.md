@@ -22,9 +22,9 @@ __Spike__: Still exploratory from the server side, no 'functioning' client, and 
 
 ## What's Left
 
--[] Implement the client to consume an endpoint
--[] Explore actual `async` style return needs from endpoints
--[] Wire in some TAP request type tests
+- [ ] Implement the client to consume an endpoint
+- [ ] Explore actual `async` style return needs from endpoints
+- [ ] Wire in some TAP request type tests
 
 [wcrd]: https://github.com/reframejs/wildcard-api
 [plka]: https://github.com/lukeed/polka
