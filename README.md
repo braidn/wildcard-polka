@@ -16,10 +16,15 @@ Often times internal APIs end up being a miss-mash of RPC like calls.
 After looking around at the ecosystem,
 I landed on trying Wildcard and seeing how competant it could be for internal style API development.
 
+## Current State
+
+__Spike__: Still exploratory from the server side, no 'functioning' client, and no tests.
+
 ## What's Left
 
-- [] Implement the client to consume an endpoint
-- [] Explore actual `async` style return needs from endpoints
+-[] Implement the client to consume an endpoint
+-[] Explore actual `async` style return needs from endpoints
+-[] Wire in some TAP request type tests
 
 [wcrd]: https://github.com/reframejs/wildcard-api
 [plka]: https://github.com/lukeed/polka
