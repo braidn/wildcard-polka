@@ -1,0 +1,19 @@
+# vim: set fenc=utf-8 ft=dosini:
+
+[file-fix]
+
+command=
+command:javascript=npx prettier --write $(VIM_FILEPATH)
+cwd=<root>
+output=quickfix
+errorformat=%f:%l:%m
+save=1
+
+[file-build]
+
+command=
+command:javascript=npx babel $(VIM_INIHOME)/src -d $(VIM_INIHOME)/dist
+cwd=<root>
+output=quickfix
+errorformat=%f:%l:%m
+save=1

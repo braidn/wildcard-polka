@@ -1,0 +1,10 @@
+environment: nodejs
+include:
+  - ./**/*.js
+exclude:
+  - ./node_modules/**
+  - ./dist/**
+  - ./src/index.js
+types:
+  - ./@types
+  - ./node_modules/@types

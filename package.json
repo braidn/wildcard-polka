@@ -1,0 +1,26 @@
+{
+  "name": "wildcard-polka-api",
+  "version": "1.0.0",
+  "description": "A RPC Powered Polka King",
+  "repository": "nothing-yet@github.com",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Braden Douglass <me@braidn.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@wildcard-api/client": "^0.3.0",
+    "@wildcard-api/server": "^0.3.0",
+    "polka": "^0.5.2",
+    "wildcard-api": "^0.7.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-flow": "^7.9.0",
+    "@hegel/cli": "0.0.39",
+    "@types/node": "^13.13.0",
+    "prettier": "2.0.4"
+  }
+}
