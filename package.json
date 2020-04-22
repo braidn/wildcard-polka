@@ -5,7 +5,13 @@
   "repository": "nothing-yet@github.com",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "types:check": "hegel",
+    "run:server": "nodemon ./dist/index.js",
+    "build:all": "npm run build:server & npm run build:client",
+    "build:server": "babel ./src -d ./dist",
+    "build:client": "parcel build ./public/index.html",
+    "fix:server": "prettier --write ./src/*.js",
+    "fix:client": "prettier --write ./public/*.js"
   },
   "author": "Braden Douglass <me@braidn.com>",
   "license": "ISC",
