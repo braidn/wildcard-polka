@@ -5,6 +5,7 @@
   "repository": "nothing-yet@github.com",
   "main": "src/index.js",
   "scripts": {
+    "start": "npm run build:all & nodemon ./dist/index.js",
     "types:check": "hegel",
     "run:server": "nodemon ./dist/index.js",
     "build:all": "npm run build:server & npm run build:client",
