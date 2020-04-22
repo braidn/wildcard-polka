@@ -13,6 +13,8 @@
     "@wildcard-api/client": "^0.3.0",
     "@wildcard-api/server": "^0.3.0",
     "polka": "^0.5.2",
+    "serve-static": "^1.14.1",
+    "sirv": "^0.4.2",
     "wildcard-api": "^0.7.3"
   },
   "devDependencies": {
@@ -21,6 +23,10 @@
     "@babel/preset-flow": "^7.9.0",
     "@hegel/cli": "0.0.39",
     "@types/node": "^13.13.0",
+    "parcel-bundler": "^1.12.4",
     "prettier": "2.0.4"
-  }
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ]
 }
