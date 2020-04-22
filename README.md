@@ -22,7 +22,9 @@ __Spike__: Still exploratory from the server side, no 'functioning' client, and 
 
 ## What's Left
 
-- [ ] Implement the client to consume an endpoint
+- [X] Implement the client to consume an endpoint
+- [X] Build some scripts to automate the startup/building of client + server
+- [ ] Get type signatures fixed for client + server synergy
 - [ ] Explore actual `async` style return needs from endpoints
 - [ ] Wire in some TAP request type tests
 
