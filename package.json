@@ -6,13 +6,12 @@
   "main": "src/index.js",
   "scripts": {
     "start": "npm run build:all & nodemon ./dist/index.js",
-    "types:check": "hegel",
     "run:server": "nodemon ./dist/index.js",
     "build:all": "npm run build:server & npm run build:client",
     "build:server": "babel ./src -d ./dist",
     "build:client": "parcel build ./public/index.html",
     "fix:server": "prettier --write ./src/*.js",
-    "fix:client": "prettier --write ./public/*.js"
+    "fix:client": "prettier --write ./public/*.ts"
   },
   "author": "Braden Douglass <me@braidn.com>",
   "license": "ISC",
@@ -28,11 +27,14 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/preset-flow": "^7.9.0",
+    "@babel/preset-typescript": "^7.10.1",
     "@hegel/cli": "0.0.39",
     "@types/node": "^13.13.0",
+    "babel-polyfill": "^6.26.0",
     "nodemon": "^2.0.3",
-    "parcel-bundler": "^1.12.4",
-    "prettier": "2.0.4"
+    "parcel-bundler": "^1.10.3",
+    "prettier": "2.0.4",
+    "typescript": "^3.9.5"
   },
   "browserslist": [
     "last 1 Chrome versions"
